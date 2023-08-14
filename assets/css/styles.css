@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -35,6 +35,7 @@ nav {
     left: 0;
     display: none;
     top: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 #nav-toggle:checked~nav {
@@ -64,6 +65,62 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: 225px;
+    padding-top: 10px;
+    width: 100vw;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer  h3 {
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+footer  p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: #cacdd2;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials li a {
+    text-decoration: none;
+    color: #ffffff;
+    border: 1.1px solid white;
+    padding: 8px;
+    border-radius: 50%;
+    width: 35px;
 }
 
 @media screen and (min-width: 768px) {
