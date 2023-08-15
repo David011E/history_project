@@ -73,7 +73,7 @@ footer {
     left: 0;
     right: 0;
     background: #111;
-    height: 225px;
+    height: 250px;
     padding-top: 10px;
     width: 100vw;
     color: white;
@@ -123,6 +123,12 @@ footer  p {
     width: 35px;
 }
 
+@media screen and (min-width: 540px) {
+    footer {
+        height: 210px;
+    }
+ }
+
 @media screen and (min-width: 768px) {
     nav {
         display: block;
@@ -148,5 +154,9 @@ footer  p {
         font-size: 40px;
         line-height: 75px;
         margin: 0 0.5rem;
+    }
+
+    footer {
+        height: 210px;
     }
 }
