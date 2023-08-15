@@ -6,6 +6,31 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Open Sans', sans-serif;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container {
+    display: inline-flex;
+    align-items: center;
+}
+
+.checkbox {
+    margin-right: 10px; /* Add margin to separate checkbox and paragraph */
+}
+
 h1, h2 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
@@ -67,8 +92,47 @@ header a {
     color: inherit;
 }
 
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#signup {
+    background-image: url("../images/aca.jpg");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    padding-bottom: 20px;
+    flex-grow: 1;
+}
+
+#signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form > p {
+    font-size: 10px;
+}
+
+.text-input {
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+.checkbox-container p {
+    margin: 10px 0; /* Add some vertical spacing */
+    font-size: 14px; /* Adjust font size for small screens */
+}
+
 footer {
-    position: fixed;
+    position: relative;
     bottom: 0;
     left: 0;
     right: 0;
@@ -80,7 +144,6 @@ footer {
 }
 
 .footer-content {
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -92,11 +155,12 @@ footer  h3 {
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
+    margin: 0;
 }
 
 footer  p {
     max-width: 500px;
-    margin: 10px auto;
+    margin: 10px auto 0;
     line-height: 28px;
     font-size: 14px;
     color: #cacdd2;
