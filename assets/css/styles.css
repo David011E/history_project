@@ -22,6 +22,13 @@ main {
     flex-direction: column;
 }
 
+.learn-more {
+    flex: 1 0 auto;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
 .checkbox-container {
     display: inline-flex;
     align-items: center;
@@ -157,11 +164,12 @@ footer {
     left: 0;
     right: 0;
     background: #111;
-    height: 250px;
+    min-height: 250px; /* Use min-height instead of height */
     padding-top: 10px;
     width: 100vw;
     color: white;
 }
+
 
 .footer-content {
     align-items: center;
@@ -206,6 +214,52 @@ footer  p {
     border-radius: 50%;
     width: 35px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    margin-bottom: 10px;
+}
+
+.box {
+    border-radius: 25px;
+    border: 2px solid #181a16;
+    padding: 20px;
+    width: 100%; /* Set width to 100% to expand based on container */
+    max-width: 400px; /* Optional: Set a maximum width if needed */
+    margin-top: 10px;
+    margin-left: 10px; /* Adjust this margin as needed */
+    border: 1px solid #ccc; /* Remove duplicate border property */
+    text-align: center;
+}
+
+.box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.box p {
+    font-size: 16px;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #eeeeee;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 25px; /* Add some spacing between paragraph and button */
+}
+
 
 @media screen and (min-width: 540px) {
     footer {
