@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 body {
     min-height: 100vh;
     display: flex;
@@ -13,6 +17,50 @@ body {
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Open Sans', sans-serif;
+}
+
+/* hero */
+
+#hero {
+    height: 70vh;
+    width: 100%;
+    background: url("../images/hero.jpg") no-repeat center center/cover;
+    position: relative;
+}
+
+#content {
+    background: url("../images/content.jpg") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#content div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    text-align: center;
+    flex-basis: 200px;
+    flex-grow: 1;
+    border: 2px solid white;
+}
+
+#cover-content {
+    background-color: rgba(11, 22, 254, 0.25);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    padding-left: 20px;
+    border-radius: 20px;
+    width: 80%;
+    left: 30px;
+}
+
+#cover-content > h2, #cover-content > h5 {
+    color: #fafafa;
+}
+
+#content div p {
+    margin-top: 10px; 
 }
 
 main {
@@ -38,7 +86,7 @@ main {
     margin-right: 10px; /* Add margin to separate checkbox and paragraph */
 }
 
-h1, h2 {
+h1, h2, h5 {
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -306,5 +354,18 @@ footer  p {
         flex-direction: column;
         padding: 30px;
         margin: 50px auto;
+    }
+
+    #cover-content {
+        background-color: rgba(11, 22, 254, 0.25);
+        font-size: 130%;
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        max-width: 40%;
+        padding-left: 20px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
     }
 }
