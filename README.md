@@ -66,8 +66,24 @@ All About History is a comprehensive platform dedicated to fostering a deeper un
   ## Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
+  - In the GitHub repository, navigate to the Settings tab .
+  - From the source section drop-down menu, select the Master Branch.
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
 The live link can be found here - https://david011e.github.io/history_project/
+
+## Credits 
+
+### Content
+
+- The links for the Learn more page for more infomation were from [britannica](https://www.britannica.com/).
+
+- The text for the Home page and footer was taken from Google.
+
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
+
+### Media
+
+- The photos used on the info and sign up page are from This Open Source site [Pexels](www.pexels.com)
+
+- The photos used on the hero and Learn More page are from This Open Source site [Unsplash](https://unsplash.com/)
