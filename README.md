@@ -17,13 +17,13 @@ All About History is a comprehensive platform dedicated to fostering a deeper un
 - __The landing page image__
 
  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to All About History with an eye catching animation to grab their attention
+  - This section introduces the user to All About History with an eye catching animation to grab their attention.
 
   ![Landing Page](assets/images/heroimage.png)
 
   - __The Info section__
 
-  This section will allow the user to select if they want to learn more or sign up for our monthly newsletter
+  This section will allow the user to select if they want to learn more or sign up for our monthly newsletter.
 
   ![The Info section](assets/images/info-content.png)
 
@@ -82,8 +82,10 @@ The live link can be found here - https://david011e.github.io/history_project/
 
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/).
 
+- Fonts for this project were used from [Google fonts](https://fonts.google.com/).
+
 ### Media
 
-- The photos used on the info and sign up page are from This Open Source site [Pexels](www.pexels.com)
+- The photos used on the info and sign up page are from This Open Source site [Pexels](www.pexels.com).
 
-- The photos used on the hero and Learn More page are from This Open Source site [Unsplash](https://unsplash.com/)
+- The photos used on the hero and Learn More page are from This Open Source site [Unsplash](https://unsplash.com/).
