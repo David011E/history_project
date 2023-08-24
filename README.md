@@ -31,6 +31,19 @@ All About History is a comprehensive platform dedicated to fostering a deeper un
     * [Media](#media)
 
 
+## **UX Development**
+
+## **Design**
+
+### **Colour Scheme**
+
+The selected color scheme was thoughtfully chosen to convey a distinct visual identity that aligns with the project's overall design philosophy, creating a cohesive and engaging user experience.
+
+![Found in Translation Color Palette](assets/images/colour-scheme.png)
+
+
+
+
 ## Features
 
 ### **General Features On All Pages**
