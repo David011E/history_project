@@ -30,6 +30,9 @@ All About History is a comprehensive platform dedicated to fostering a deeper un
     * [Content](#content)
     * [Media](#media)
 
+6. [Technology Used](#technology-used)  
+    * [Language Used](#language-used)
+
 
 ## **UX Development**
 
@@ -114,6 +117,22 @@ The site has been designed to be fully responsive, from mobile all the way up to
 ## Testing
 
 Please view our [TESTING.md](testing.md) file for more information on the testing undertaken.
+
+## **Technology Used**
+
+### **Language Used**
+
+HTML, CSS
+
+### **Frameworks, libraries & Program Used**
+
+* [balsamiq wireframes](https://balsamiq.com/) - To create wireframes.
+* [Git](https://git-scm.com/) - For version control.
+* [Github](https://github.com/)- To save and store the files for the website and for deployment.
+* [Google DevTools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
+* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Google fonts](https://fonts.google.com/) - used to import the font used on the site.
+
 
   ## Deployment
 
