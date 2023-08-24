@@ -116,7 +116,7 @@ The site has been designed to be fully responsive, from mobile all the way up to
 
 ## Testing
 
-Please view our [TESTING.md](testing.md) file for more information on the testing undertaken.
+Please view our [TESTING.md](TESTING.md) file for more information on the testing undertaken.
 
 ## **Technology Used**
 
