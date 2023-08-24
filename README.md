@@ -41,8 +41,13 @@ The selected color scheme was thoughtfully chosen to convey a distinct visual id
 
 ![Found in Translation Color Palette](assets/images/colour-scheme.png)
 
+### **Typography**
 
+As the main focus of the site is the messages that people are sending, I have only used one font throughout the site to prevent users becoming overwhelmed.
 
+Open Sans was imported from google fonts. It is a sans-serif font which is accessible friendly.
+
+![Open Sans Font](assets/images/open-sans.png)
 
 ## Features
 
