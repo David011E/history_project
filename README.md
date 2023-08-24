@@ -4,7 +4,38 @@ All About History is a comprehensive platform dedicated to fostering a deeper un
 
 ![Responsive Design](assets/images/amiresponsive.png)
 
+## **Table of Contents**
+
+1. [UX Development](#ux-development)
+
+* [DESIGN](#design)
+    * [Colour Scheme](#colour-scheme)
+    * [Typography](#typography)
+    * [Imagery](#imagery)
+    * [Wireframes](#wireframes)
+
+2. [Features](#features)  
+    
+    * [General Features On All Pages](#general-features-on-all-pages)
+    * [Features Of Each Page](#features-of-each-page)
+
+3. [Testing](#testing)
+    * [TESTING.md](#testing)
+
+4. [Deployment](#deployment)  
+    * [Deployment Github Pages](#deployment-to-github-pages)
+    * [Steps To Use This Project](#steps-to-use-this-project)  
+
+5. [Credits](#credits)  
+    * [Content](#content)
+    * [Media](#media)
+
+
 ## Features
+
+### **General Features On All Pages**
+
+The site has been designed to be fully responsive, from mobile all the way up to desktop.
 
 - __Navigation Bar__
 
