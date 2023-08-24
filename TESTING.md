@@ -58,3 +58,21 @@ Each device tested the site using the following browsers:
 * Firefox
 
 Additional testing was taken by friends and family on a variety of devices and screen sizes.  
+
+Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+| Site logo | Redirects to the home page | Click logo |  Redirects to home page | Pass |
+| Site Name | Redirects to home page | Click site name | Redirects to home page | Pass |
+| Home Link | Redirects to home page | Click home link | Redirects to home page | Pass |
+| Learn more Link | Redirects to Learn more page | Click Learn more link | Redirects to Learn more page | Pass |
+| Sign Up Link | Redirects to Sign Up page | Click Sign Up link | Redirects to Sign Up page | Pass |
+| `Home Page` |
+| Learn more button | Redirects to the Learn more page | Click button | Redirected to the Learn more Page | Pass |
+| Sign Up button | Redirects to the Sign Up page | Click button | Redirected to the Sign Up Page | Pass |
+| `Signup Page` |
+| Form - Submission with no information | User prompted to fill in information | clicked submit button with no fields filled out | Form highlighted first empty field | Pass |
+| `Footer` |
+| Footer - Social media links | Opens new tab to the social media site | Clicked each icon | New tabs opened for each site | Pass |
+
+Back to [README.md](README.md)
