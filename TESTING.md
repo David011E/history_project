@@ -19,4 +19,20 @@ Testing was ongoing throughout the entire build. We utilised Chrome developer to
 
 Each page has been inspected using google chrome developer tools & Firefox inspector tool to ensure that each page is fully responsive on a variety of different screen sizes and devices. We have also physically tested the responsiveness of the site on a number of different devices.
 
+---
 
+
+## AUTOMATED TESTING
+
+
+### W3C Validator
+
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+
+* [Index Page W3C HTML Validation](https://validator.w3.org/nu/#textarea) - Pass
+
+* [Sign Up Page W3C HTML Validation](https://validator.w3.org/nu/#textarea) - Pass 
+
+* [Learn More Page W3C HTML Validation](https://validator.w3.org/nu/#textarea) - Pass 
+
+* [style.css CSS Validation](https://jigsaw.w3.org/css-validator/validator) - Pass
