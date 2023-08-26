@@ -56,9 +56,13 @@ Open Sans was imported from google fonts. It is a sans-serif font which is acces
 
 The entire site's wireframe was done using [balsamiq wireframes](https://balsamiq.com/).This depicts the site on a desktop and a mobile device.
 
-![Wireframe for Home Page](assets/images/home-page-wireframes.png)
-![Wireframe for Learn More Page](assets/images/learn-more-page-wireframes.png)
-![Wireframe for Sign Up Page](assets/images/sign-up-page-wireframes.png)
+[Home Page Wireframe](assets/images/home-page-wireframes.png)
+
+[Learn more Wireframe](assets/images/learn-more-page-wireframes.png)
+
+[Sign Up Wireframe](assets/images/sign-up-page-wireframes.png)
+
+---
 
 ## Features
 
